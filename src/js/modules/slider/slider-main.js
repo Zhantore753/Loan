@@ -76,5 +76,6 @@ export default class MainSlider extends Slider {
             this.showSlides(this.slideIndex);
             this.bindTriggers();
         }
+        console.log(this.btns);
     }
 }
